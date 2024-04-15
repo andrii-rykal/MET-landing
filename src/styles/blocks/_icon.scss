@@ -40,10 +40,12 @@
     text-transform: uppercase;
     pointer-events: none;
     opacity: 0;
-    transition: opaciti 0.3s;
+    transition: opacity 0.3s;
   }
 
   @include onDesktop {
+    cursor: pointer;
+    
     &:hover &__tooltip {
       opacity: 1;
       pointer-events: all;

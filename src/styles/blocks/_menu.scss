@@ -37,7 +37,6 @@
     line-height: 22px;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     transition: border-color 0.3s;
 
     &:hover {
@@ -53,6 +52,7 @@
     text-decoration: none;
     color: #fff;
     letter-spacing: 1px;
+    transition: 0.3s color;
 
     &:nth-of-type(2) {
       margin-bottom: 8px;
@@ -60,6 +60,10 @@
 
     &:nth-of-type(4) {
       margin-bottom: 16px;
+    }
+
+    &:hover {
+      color: yellow;
     }
   }
 
@@ -74,6 +78,7 @@
     text-decoration: none;
     color: #fff;
     border-bottom: 1px solid transparent;
+    transition: border-color 0.3s;
 
     &:hover {
       border-color: #fff;

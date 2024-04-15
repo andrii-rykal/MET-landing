@@ -3,6 +3,7 @@
     font-weight: 700;
     text-decoration: none;
     color: $colorRed;
+    transition: 0.3s color;
 
     &:hover {
       color: #000;
@@ -63,7 +64,7 @@
     }
 
     &:hover {
-      transform: scale(1.2, 1.2);
+      transform: scale(1.05);
     }
   }
 }
