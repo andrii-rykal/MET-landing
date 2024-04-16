@@ -1,5 +1,7 @@
 .about {
   &__title {
+    grid-column: 1 / -1;
+
     @include onTablet {
       grid-column: 1 / span 3;
       grid-row: 1 / span 2;
@@ -11,6 +13,8 @@
   }
 
   &__content {
+    grid-column: 1 / -1;
+
     @include onTablet {
       grid-column: 4 / span 3;
       grid-row: 1 / span 2;
@@ -54,7 +58,6 @@
 
   &__closed-text {
     margin: 0 0 24px;
-    width: 300px;
 
     &:last-child {
       margin: 0;

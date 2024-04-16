@@ -1,5 +1,12 @@
 .menu {
   background-color: $colorRed;
+  overflow: hidden;
+
+  @media (max-height: 600px) {
+    overflow: scroll;
+  }
+
+  // orientation: landscape
 
   &__content {
     box-sizing: border-box;
