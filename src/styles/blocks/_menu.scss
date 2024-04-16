@@ -85,6 +85,10 @@
     border-bottom: 1px solid transparent;
     transition: border-color 0.3s;
 
+    &--indent {
+      height: 30px;
+    }
+
     &:hover {
       border-color: #fff;
     }
